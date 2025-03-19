@@ -33,7 +33,7 @@ copy.addEventListener("click", () => {
 });
 
 // click event listener to redirect to x.com for tweet
-tweet.addEventListener("click", () => (location.href = `https://twitter.com/intent/tweet?text=${quoteText.textContent} ${quoteAuthor.textContent}`));
+tweet.addEventListener("click", () => window.open(`https://twitter.com/intent/tweet?text=${quoteText.textContent} ${quoteAuthor.textContent}`));
 
 // function to generate random quote
 function generateRandomQuote() {
