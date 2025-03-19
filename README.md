@@ -33,7 +33,7 @@
 - Quote text will be displayed in **center with a background image**
 - Functionality to **generate new quote** by clicking on **New Button**
 - Functionality to **copy quote** by clicking on **Copy Button**
-- Functionality to **share quote on twitter** by clicking on **Share Button**
+- Functionality to **share quote on twitter** by clicking on **Tweet Button**
 - Functionality to **save quote on device** by clicking on **Export Button**
 - Saved quote will contain the following information:
   - **Quote Text** of the quote
