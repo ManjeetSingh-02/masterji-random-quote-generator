@@ -12,6 +12,22 @@ body {
     justify-content: center;
     width: 100vw;
     height: 100vh;
+    position: relative;
+}
+
+.custom-message {
+    position: absolute;
+    top: 2vh;
+    background-color: white;
+    color: green;
+    font-size: 1.5rem;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    width: auto;
+    translate: 0 -200%;
+    transition: all 0.5s linear;
 }
 
 .container {
@@ -194,5 +210,3 @@ body {
         font-size: 1rem;
     }
 }
-
-@media screen and (max-width: 640px) {}

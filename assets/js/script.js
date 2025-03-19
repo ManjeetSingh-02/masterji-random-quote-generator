@@ -5,6 +5,7 @@ const generate = document.getElementById("generate");
 const copy = document.getElementById("copy");
 const save = document.getElementById("save");
 const tweet = document.getElementById("tweet");
+const customMessage = document.getElementById("customMessage");
 
 // url and options for fetch request
 const apiUrl = "https://api.freeapi.app/api/v1/public/quotes/quote/random";
@@ -18,10 +19,17 @@ const options = {
 // click event listener to generate new quote
 generate.addEventListener("click", generateRandomQuote);
 
-// click event listener to copy generated quote
+// click event listener to copy generated quote and give custom message to user
 copy.addEventListener("click", () => {
+  // copy to clipboard
   navigator.clipboard.writeText(quoteText.textContent);
-  alert("Copied");
+
+  // create custom message and show to user
+  customMessage.textContent = "Copied to Clipboard";
+  customMessage.style.translate = "0";
+
+  // after 1s, remove the custom message
+  setTimeout(() => (customMessage.style.translate = " 0 -200%"), 1000);
 });
 
 // click event listener to redirect to x.com for tweet
