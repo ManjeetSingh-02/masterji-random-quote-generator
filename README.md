@@ -36,8 +36,8 @@
 - Functionality to **share quote on twitter** by clicking on **Share Button**
 - Functionality to **save quote on device** by clicking on **Export Button**
 - Saved quote will contain the following information:
-  - **Quote Text** of the video
-  - **Background Image** of the video
+  - **Quote Text** of the quote
+  - **Background Image** of the quote
 
 ## Screenshots
 
